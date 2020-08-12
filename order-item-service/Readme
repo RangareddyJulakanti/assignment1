@@ -1,0 +1,26 @@
+http://localhost:8080/h2-console
+
+// Create products
+
+POST: http://localhost:8080/v1/api/order-item/
+
+{
+	"id":"7b35b5aa-db40-11ea-87d0-0242ac130003",
+	"productCode":"ABC",
+	"productName":"ASUS",
+	"quantity":1
+}
+
+//Select
+
+http://localhost:8080/v1/api/order-item/aee2d55a-8bb5-4bd5-9920-050f2d3ae131
+
+{
+	"id":"7b35b5aa-db40-11ea-87d0-0242ac130003",
+	"productCode":"ABC",
+	"productName":"ASUS",
+	"quantity":1
+}
+
+
+
